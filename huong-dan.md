@@ -1,6 +1,7 @@
 ---
 title: Hướng dẫn cài đặt
 permalink: /huong-dan/
+lang: vi
 ---
 
 
