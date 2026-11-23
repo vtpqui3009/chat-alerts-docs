@@ -1,0 +1,14 @@
+{
+  "name": "chat-alerts-docs",
+  "private": true,
+  "description": "Checks for the public docs site of Chat Alerts for Jira",
+  "scripts": {
+    "build": "bundle exec jekyll build",
+    "serve": "node tests/serve.mjs",
+    "test": "playwright test",
+    "check": "npm run build && npm test"
+  },
+  "devDependencies": {
+    "@playwright/test": "1.63.0"
+  }
+}
