@@ -1,0 +1,20 @@
+---
+layout: default
+---
+<div class="wrap doc-grid">
+  <aside class="toc" aria-label="{% if page.lang == 'vi' %}Mục lục{% else %}On this page{% endif %}" hidden>
+    <details open>
+      <summary>{% if page.lang == 'vi' %}Mục lục{% else %}On this page{% endif %}</summary>
+      <ol class="toc-list"></ol>
+    </details>
+  </aside>
+  <article class="doc">
+    <header class="doc-head">
+      <p class="eyebrow">{% if page.lang == 'vi' %}Tài liệu{% else %}Documentation{% endif %}</p>
+      <h1>{{ page.title }}</h1>
+    </header>
+    <div class="prose">
+      {{ content }}
+    </div>
+  </article>
+</div>

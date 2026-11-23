@@ -1,0 +1,98 @@
+---
+layout: default
+title: Chat Alerts for Jira
+---
+<section class="hero">
+  <div class="wrap hero-grid">
+    <div class="hero-copy">
+      <p class="pill"><span class="dot"></span> Atlassian Forge app for Jira Cloud</p>
+      <h1>Jira updates, right in your <span class="grad">team chat</span>.</h1>
+      <p class="lead">Post Jira updates to your <strong>Telegram</strong> and <strong>Lark (Feishu)</strong> group chats: new issues, status changes, assignee changes, comments, and a morning list of overdue work. In English or Vietnamese.</p>
+      <div class="cta">
+        <a class="btn btn-primary" href="{{ '/setup/' | relative_url }}">Setup guide <span aria-hidden="true">→</span></a>
+        <a class="btn btn-ghost" href="{{ '/huong-dan/' | relative_url }}" lang="vi">Hướng dẫn tiếng Việt</a>
+      </div>
+      <ul class="chips" aria-label="Works with">
+        <li><span class="chip-dot tg"></span>Telegram</li>
+        <li><span class="chip-dot lark"></span>Lark</li>
+        <li><span class="chip-dot fs"></span>Feishu</li>
+      </ul>
+    </div>
+
+    <div class="chat" role="img" aria-label="Example: alerts posted in a Telegram group">
+      <div class="chat-bar">
+        <span class="chat-avatar">W</span>
+        <div><strong>Web team</strong><small>bot · 6 members</small></div>
+      </div>
+      <div class="chat-body">
+        <div class="msg">
+          <p class="msg-title">🆕 <b>WEB-142: Checkout button hidden on small screens</b></p>
+          <p>New issue · Bug · Priority: High</p>
+          <p>Assignee: Linh Tran</p>
+          <p>By: Minh Pham</p>
+          <span class="msg-btn">Open in Jira</span>
+          <time>09:12</time>
+        </div>
+        <div class="msg">
+          <p class="msg-title">🔄 <b>WEB-138: Add VND price format</b></p>
+          <p>Status changed: In Progress → Done</p>
+          <p>By: An Nguyen</p>
+          <span class="msg-btn">Open in Jira</span>
+          <time>09:40</time>
+        </div>
+        <div class="msg">
+          <p class="msg-title">⏰ <b>2 overdue issues</b></p>
+          <p>• WEB-120 Update privacy banner — Linh Tran (3 days overdue)</p>
+          <p>• WEB-131 Fix login redirect — Unassigned (1 day overdue)</p>
+          <span class="msg-btn">View all</span>
+          <time>08:00</time>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="wrap">
+    <h2 class="section-title">What gets posted</h2>
+    <p class="section-lead">Pick the projects and message types for each group. Every alert links back to the issue in Jira.</p>
+    <div class="cards">
+      <div class="card"><span class="ico">🆕</span><h3>New issues</h3><p>Type, priority, assignee and who created it.</p></div>
+      <div class="card"><span class="ico">🔄</span><h3>Status changes</h3><p>From one status to the next, as soon as it moves.</p></div>
+      <div class="card"><span class="ico">👤</span><h3>Assignee changes</h3><p>Know who picked up the work.</p></div>
+      <div class="card"><span class="ico">💬</span><h3>Comments</h3><p>New comments as plain text. Restricted comments are never posted.</p></div>
+      <div class="card"><span class="ico">⏰</span><h3>Morning digest</h3><p>A daily list of open issues past their due date, at the hour you choose.</p></div>
+      <div class="card"><span class="ico">🌐</span><h3>English or Vietnamese</h3><p>Messages and the settings page in either language.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="section section-alt">
+  <div class="wrap trust">
+    <div>
+      <h2 class="section-title">Built to keep your data in Jira</h2>
+      <p class="section-lead">The app runs on Atlassian Forge, inside Atlassian's cloud. We do not run our own servers and cannot see your Jira data or tokens.</p>
+      <a class="text-link" href="{{ '/privacy/' | relative_url }}">Read the privacy policy →</a>
+    </div>
+    <ul class="checks">
+      <li>Read-only access to Jira</li>
+      <li>Bot tokens and webhooks kept in encrypted Forge storage</li>
+      <li>Issues with a security level are never posted</li>
+      <li>No analytics, no tracking, no sale of data</li>
+    </ul>
+  </div>
+</section>
+
+<section class="section">
+  <div class="wrap">
+    <h2 class="section-title">Documentation</h2>
+    <div class="cards cards-3">
+      <a class="card card-link" href="{{ '/setup/' | relative_url }}"><h3>Setup guide</h3><p>Install the app and connect a Telegram or Lark group in about two minutes.</p><span class="more">Read →</span></a>
+      <a class="card card-link" href="{{ '/huong-dan/' | relative_url }}" lang="vi"><h3>Hướng dẫn cài đặt</h3><p>Cài app và nối nhóm Telegram hoặc Lark, bằng tiếng Việt.</p><span class="more">Đọc →</span></a>
+      <a class="card card-link" href="{{ '/privacy/' | relative_url }}"><h3>Privacy policy</h3><p>What the app reads, what it sends to chat apps, and what it stores.</p><span class="more">Read →</span></a>
+    </div>
+    <div class="support">
+      <p><strong>Need help?</strong> Support: [SUPPORT EMAIL]. We answer within one business day.</p>
+    </div>
+  </div>
+</section>
